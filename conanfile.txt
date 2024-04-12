@@ -1,0 +1,13 @@
+[requires]
+lz4/1.9.4
+poco/1.9.4
+zstd/1.5.2
+protobuf/3.21.12
+ 
+[generators]
+CMakeDeps
+CMakeToolchain
+cmake
+
+[layout]
+cmake_layout

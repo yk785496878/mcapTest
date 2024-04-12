@@ -1,0 +1,13 @@
+syntax = "proto3";
+ 
+message Head {
+  int32 id = 1;
+  int32 index = 2;
+  uint64 timestamp = 3;
+}
+ 
+message Data {
+  Head head = 1;
+  int32 speed = 2;
+  float acc = 3;
+}
